@@ -1,0 +1,53 @@
+.image-hero {
+    width: 250px;
+    height: 250px;
+   
+}
+#hero {
+   padding-top: 200px;
+    
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+}
+
+.subtitle {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 12px;
+
+}
+
+.text-about {
+    text-indent: 30px;
+    text-align: justify;
+    -ms-text-underline-position: under;
+
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel img {
+    max-height: 500px;
+    object-fit: cover;
+    margin: 0 auto;
+    image-resolution:inherit;
+    
+}
+
+@media (min-width:576px;) {
+    .text-about {
+        width: 100%;
+    }
+    #Skill {
+        width: 100%;
+    }
+    .navbar-nav  {
+        width: 100%;
+    }
+}
+
+
